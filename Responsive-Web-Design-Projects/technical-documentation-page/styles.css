@@ -1,0 +1,32 @@
+body{
+    display: flex;
+}
+
+#navbar{
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    left:0;
+    top: 0;
+}
+
+#navbar a{
+    display: block;
+    padding: 10px 15px;
+}
+
+#main-doc{
+    margin-left: 250px;
+}
+
+@media (max-width:768px){
+
+    #navbar{
+        width: 200px;
+    }
+
+    #main-doc{
+        margin-left: 180px;
+    }
+
+}

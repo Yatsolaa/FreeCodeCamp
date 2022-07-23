@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body main{
+    background-color: #ccc;
+}
+
+main #title{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+main #description{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+main #survey-form{
+    display: block;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+main #survey-form input{
+    display: block;
+}
+
+main #survey-form .type-1{
+    width: 100%;
+}
+
